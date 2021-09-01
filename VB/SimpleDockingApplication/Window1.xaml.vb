@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Text
@@ -20,6 +19,7 @@ Namespace SimpleDockingApplication
 	''' </summary>
 	Partial Public Class Window1
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 		End Sub
@@ -32,6 +32,8 @@ Namespace SimpleDockingApplication
 			End If
 			Dim docPanel As DocumentPanel = dockManager1.DockController.AddDocumentPanel(documentGroup) ' сreate a panel in the document group
 			counter += 1
+'INSTANT VB WARNING: An assignment within expression was extracted from the following statement:
+'ORIGINAL LINE: docPanel.Caption = string.Format("Document {0}", ++counter);
 			docPanel.Caption = String.Format("Document {0}", counter)
 			Me.dockManager1.DockController.Activate(docPanel)
 		End Sub
