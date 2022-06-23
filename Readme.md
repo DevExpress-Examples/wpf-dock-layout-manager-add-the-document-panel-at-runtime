@@ -5,7 +5,7 @@
 
 # WPF Dock Layout Manager - Add the DocumentPanel at Runtime
 
-You can use the the `DockManager.GetItem` method to find a [DocumentGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentGroup) where you want to add a [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel). Use the [AddDocumentGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockControllerBase.AddDocumentGroup(DevExpress.Xpf.Layout.Core.DockType)) method to add a new [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) to this group. To activate this panel, call the [DockController.Activate](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockControllerBase.Activate.overloads) method.
+You can use the `DockManager.GetItem` method to find the [DocumentGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentGroup) where you want to add a [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel). Use the [AddDocumentGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockControllerBase.AddDocumentGroup(DevExpress.Xpf.Layout.Core.DockType)) method to add a new [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) to this group. To activate this panel, call the [DockController.Activate](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockControllerBase.Activate.overloads) method.
 
 <img src="https://user-images.githubusercontent.com/12169834/175319724-deb73350-0fa6-461b-ae5d-cc2a9d2df2c5.png" width=575px/>
 
